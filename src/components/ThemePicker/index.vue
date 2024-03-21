@@ -8,7 +8,8 @@
 </template>
 
 <script>
-const version = require('element-ui/package.json').version // element-ui version from node_modules
+import { version } from 'element-ui/package.json'
+// const version = require('element-ui/package.json').version // element-ui version from node_modules
 const ORIGINAL_THEME = '#409EFF' // default color
 
 export default {
